@@ -5,4 +5,5 @@ sudo apt-get install google-chrome-stable -y
 apt-get install git -y
 git config --global user.name "UserName Here"
 git config --global user.email emailHere@exemple.com
+printf 'Current git configs in your system\n' >> ../logs/git_log.txt
 git config --list >> ../logs/git_log.txt
