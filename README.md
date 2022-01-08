@@ -16,4 +16,4 @@ If you want to, you can execute each script separately:
 > - $ chmod +x script_name.sh
 > - $ ./script_name.sh
 
-Also, the logs will be saved in de logs folder, thanks and enjoy!
+Also, the logs will be saved in the logs folder, thanks and enjoy!
