@@ -1,5 +1,19 @@
 # script_bash
-Repositório com o propósito de armazenar scripts de instalação de pacotes do linux, visando recuperar os pacotes mais utilizados com simples comandos de uma vez só caso seja necessário começar um sistema de absoluto 0
+This repostiry was made to keep GabrielFRails personal bash scripts, since he accidentally destroy his sdd and all S.O's installed, he felt the need to create some scripts to easily reinstall his repositories, this is a begginig and all contributions are wellcome.
 
-## Atenção!
-Caso você venha a utilizar esse script, lembre-se de **alterar** o arquivo "basic.sh", dentro dele há a instalação do Google Chrome e também do git e as configurações de usuário do mesmo, portanto se atente e **edite o usuário e e-mail** para as suas configurações pessoais, pois os que estão lá são somente um exemplo, desde já grato.
+## Attention!
+Before use the scripts, remember that in the **"basic.sh"** file are the commands to install Google Chrome and git/git configs into your linux system, you will need **edit** this file to config yout **personal git data** (user and e-mail).   
+
+
+## Execution:
+Open the terminal in the clonned folder and do this commands:
+> - $ chmod +x runall.sh
+> - $ ./runall.sh
+
+## Notes:
+If you want to, you can execute each script separately:
+> - $ cd ./scripts
+> - $ chmod +x script_name.sh
+> - $ ./script_name.sh
+
+Also, the logs will be saved in de logs folder, thanks and enjoy!
