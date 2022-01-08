@@ -7,4 +7,3 @@ printf 'Current node, npm and vue version\n' >> ../logs/dev_logs.txt
 node --version >> ../logs/dev_logs.txt
 npm --version >> ../logs/dev_logs.txt
 vue --version >> ../logs/dev_logs.txt
-
