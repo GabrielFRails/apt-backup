@@ -1,0 +1,58 @@
+Client: Docker Engine - Community
+ Version:           20.10.12
+ API version:       1.41
+ Go version:        go1.16.12
+ Git commit:        e91ed57
+ Built:             Mon Dec 13 11:45:33 2021
+ OS/Arch:           linux/amd64
+ Context:           default
+ Experimental:      true
+● docker.service - Docker Application Container Engine
+     Loaded: loaded (/lib/systemd/system/docker.service; enabled; vendor preset: enabled)
+     Active: active (running) since Sun 2022-01-16 09:46:42 -03; 4min 44s ago
+TriggeredBy: ● docker.socket
+       Docs: https://docs.docker.com
+   Main PID: 16819 (dockerd)
+      Tasks: 10
+     Memory: 30.0M
+     CGroup: /system.slice/docker.service
+             └─16819 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+
+jan 16 09:46:42 gabrielrails-pc dockerd[16819]: time="2022-01-16T09:46:42.558234088-03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+jan 16 09:46:42 gabrielrails-pc dockerd[16819]: time="2022-01-16T09:46:42.558242808-03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+jan 16 09:46:42 gabrielrails-pc dockerd[16819]: time="2022-01-16T09:46:42.558249333-03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+jan 16 09:46:42 gabrielrails-pc dockerd[16819]: time="2022-01-16T09:46:42.558438413-03:00" level=info msg="Loading containers: start."
+jan 16 09:46:42 gabrielrails-pc dockerd[16819]: time="2022-01-16T09:46:42.687300353-03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+jan 16 09:46:42 gabrielrails-pc dockerd[16819]: time="2022-01-16T09:46:42.759636954-03:00" level=info msg="Loading containers: done."
+jan 16 09:46:42 gabrielrails-pc dockerd[16819]: time="2022-01-16T09:46:42.803601276-03:00" level=info msg="Docker daemon" commit=459d0df graphdriver(s)=overlay2 version=20.10.12
+jan 16 09:46:42 gabrielrails-pc dockerd[16819]: time="2022-01-16T09:46:42.803734348-03:00" level=info msg="Daemon has completed initialization"
+jan 16 09:46:42 gabrielrails-pc systemd[1]: Started Docker Application Container Engine.
+jan 16 09:46:42 gabrielrails-pc dockerd[16819]: time="2022-01-16T09:46:42.830108471-03:00" level=info msg="API listen on /run/docker.sock"
+Client: Docker Engine - Community
+ Version:           20.10.12
+ API version:       1.41
+ Go version:        go1.16.12
+ Git commit:        e91ed57
+ Built:             Mon Dec 13 11:45:33 2021
+ OS/Arch:           linux/amd64
+ Context:           default
+ Experimental:      true
+
+Server: Docker Engine - Community
+ Engine:
+  Version:          20.10.12
+  API version:      1.41 (minimum version 1.12)
+  Go version:       go1.16.12
+  Git commit:       459d0df
+  Built:            Mon Dec 13 11:43:42 2021
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          1.4.12
+  GitCommit:        7b11cfaabd73bb80907dd23182b9347b4245eb5d
+ runc:
+  Version:          1.0.2
+  GitCommit:        v1.0.2-0-g52b36a2
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
