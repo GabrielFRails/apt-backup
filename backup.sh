@@ -56,6 +56,6 @@ set_dev_environment()
    sudo usermod -aG docker $USER
 }
 
-set_basic_environment
-set_dev_environment
-customizations
+#set_basic_environment
+#set_dev_environment
+#customizations
