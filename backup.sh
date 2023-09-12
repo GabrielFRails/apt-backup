@@ -8,10 +8,8 @@ set_basic_environment()
    sudo apt-get update
    sudo apt-get install google-chrome-stable -y
 
-   sudo apt install wget
-   wget -O discord.deb https://discord.com/api/download?platform=linux&format=deb
-   wget https://az764295.vo.msecnd.net/stable/57fd6d0195bb9b9d1b49f6da5db789060795de47/code_1.67.0-1651667246_amd64.deb
-   
+   sudo apt install wget -y
+   sudo apt intall vim -y
 }
 
 customizations()
@@ -34,6 +32,8 @@ customizations()
       ./install.sh
       cd ../ 
    done
+
+   sudo apt install cmatrix -y
 }
 
 set_dev_environment()
@@ -56,6 +56,6 @@ set_dev_environment()
    sudo usermod -aG docker $USER
 }
 
-#set_basic_environment
-#set_dev_environment
-#customizations
+set_basic_environment
+set_dev_environment
+customizations
