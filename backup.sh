@@ -9,7 +9,8 @@ set_basic_environment()
    sudo apt-get install google-chrome-stable -y
 
    sudo apt install wget -y
-   sudo apt intall vim -y
+   sudo apt install vim -y
+   sudo apt install tig -y
 }
 
 customizations()
