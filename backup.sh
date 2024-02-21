@@ -13,6 +13,10 @@ set_basic_environment()
    sudo apt install vim -y
    sudo apt install tig -y
    sudo apt install curl -y
+   sudo apt install os-prober
+   sudo apt install sshpass -y
+   sudo apt install pip -y
+   sudo apt install tmux
 
    curl -o  chrome_package.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
    sudo dpkg -i chrome_package.deb
@@ -41,6 +45,7 @@ customizations()
    done
 
    sudo apt install cmatrix -y
+   sudo apt install neofetch -y
 }
 
 set_dev_environment()
