@@ -1,12 +1,11 @@
-# script_bash
+# A brief history
 
-This repository was made to keep GabrielFRails personal backup scripts. Since he accidentally destroyed his SSD and all installed O.Ss, he felt the need to create some scripts to easily reinstall his repositories, this is a beginning and all contributions are welcome.
+This repository was made to keep my personal backup scripts. Since he accidentally destroyed his SSD and all installed O.S's, i felt the need to create some scripts to easily reinstall my stuff (basic env for development), this is a beginning and all contributions are welcome.
 
 ## Executing the script
 
 Open the terminal in the cloned repository folder and execute these commands:
 
 ```
-$ chmod +x backup.sh
-$ ./backup.sh
+% make backup.sh
 ```
