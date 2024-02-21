@@ -1,5 +1,2 @@
-runall:
-	./backup.sh
-
-chmod:
-	chmod +x backup.sh
+backup.sh:
+	bash backup.sh
