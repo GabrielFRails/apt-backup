@@ -52,8 +52,6 @@ set_dev_environment()
    sudo npm install -g @vue/cli
    npm install @nuxtjs/vuetify -D
 
-   echo "installing now docker"
-
    sudo apt-get update
    sudo apt-get -y install apt-transport-https ca-certificates curl software-properties-common
    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
@@ -63,6 +61,11 @@ set_dev_environment()
    sudo usermod -aG docker $USER
 }
 
-set_basic_environment
-set_dev_environment
-customizations
+runall()
+{
+   set_basic_environment
+   set_dev_environment
+   customizations
+}
+
+runall
