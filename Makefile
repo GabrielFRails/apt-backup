@@ -1,2 +1,2 @@
-backup.sh:
+backup:
 	bash backup.sh
