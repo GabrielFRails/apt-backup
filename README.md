@@ -4,8 +4,27 @@ This repository was made to keep my personal backup scripts. Since he accidental
 
 ## Executing the script
 
-Open the terminal in the cloned repository folder and execute these commands:
+Open the terminal in the cloned repository folder and execute:
 
 ```
-% make backup.sh
+% make backup
+```
+
+## Git general configuration
+
+```
+% cd git_config
+```
+
+set data on .cache.mk, then:
+
+```
+% make set_git_global_config
+```
+
+to add new sshkey:
+
+```
+% make gen_sshkey
+% make touch_sshkey
 ```
