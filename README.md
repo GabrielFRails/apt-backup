@@ -16,7 +16,17 @@ Open the terminal in the cloned repository folder and execute:
 % cd git_config
 ```
 
-set data on .cache.mk, then:
+set data on .cache.mk like this:
+
+```
+# general condata config
+
+export SSH_KEY_GEN_EMAIL=example@email.com
+export GIT_CONFIG_EMAIL=example@email.com
+export GIT_CONFIG_USER=yourUser
+```
+
+then:
 
 ```
 % make set_git_global_config
@@ -29,6 +39,6 @@ to add new sshkey:
 % make touch_sshkey
 ```
 
-## Config github ssh key
+## Setup github ssh key
 
 - https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
