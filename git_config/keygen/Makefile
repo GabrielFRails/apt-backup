@@ -19,3 +19,5 @@ set_git_global_config:
 
 check_git_global_config:
 	git config --list
+
+all: gen_sshkey touch_sshkey
